@@ -86,16 +86,6 @@ const Navbar = () => {
             </svg>
           </a>
 
-          {/* Resume */}
-          <a
-            href="https://drive.google.com/file/d/1OzIq9dQbg-lowxNbNHSIqopij_LUHX7L/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center gap-2 rounded-xl bg-linear-to-r from-purple-600 to-cyan-500 px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-purple-500/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-purple-500/40"
-          >
-            <Download className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5" />
-            Resume
-          </a>
 
           {/* Contact */}
           <a
@@ -166,16 +156,8 @@ const Navbar = () => {
               </svg>
             </a>
 
-            {/* Mobile Resume */}
-            <a
-              href="https://drive.google.com/file/d/1OzIq9dQbg-lowxNbNHSIqopij_LUHX7L/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-linear-to-r from-purple-600 to-cyan-500 px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-purple-500/20 transition-all duration-300 hover:shadow-purple-500/40"
-            >
-              <Download className="h-4 w-4" />
-              Resume
-            </a>
+           
+            
           </div>
         </div>
       </div>
